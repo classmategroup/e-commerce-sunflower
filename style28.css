@@ -1,0 +1,357 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: relative;
+  }
+  .navbar{
+    margin: 0;
+    width: 100;
+    height: 20px;
+    color: #F8F4E3;
+    
+  }
+  .nav-ul{
+    margin: 0;
+    padding: 10px;
+    list-style: none;
+  }
+  li{
+    float: left;
+    padding: 10px;
+    font-weight: 600;
+    margin-right: 30px;
+    cursor: pointer;
+    padding-bottom: 24px;
+  }
+  
+  li:hover{
+    color: #747474;
+    border-bottom: 1px solid #747474;
+  }
+  .brand-h{
+    margin-left: 0;
+    font-size: 39px;
+    flex-basis: 30%;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    margin-right: 270px;
+  }
+  a{
+    text-decoration: none;
+    color: #000;
+    font-weight: 900;
+  }
+  .right{
+    float: right;
+    font-size: 20px;
+  }
+  .right li i{
+    font-size: 25px;
+    margin: 0px 4px;
+    background-color:#ECDC47;
+    color:black;
+    padding: 8px;
+    cursor: pointer;
+    border-radius: 25%;
+  }
+  .brand{
+    padding-right: 0px;
+    margin-right: 0;
+    margin-left: 50px;
+  }
+  .brand img{
+    vertical-align:top;
+    width: 50px;
+    height: 45px;
+    border-radius: 50%;
+  }
+  .brand:hover{
+    border-bottom: 0;
+  }
+  .brand-h:hover{
+    border-bottom: 0;
+  }
+  .main{
+    margin-top: 45px;
+    width: 100%;
+    height: 93vh;
+    border-radius: 30px;
+    background: linear-gradient(-90deg, #F8F4E3 0%, #F4FDAF 100%);
+  }
+  .main-l{
+    width: 36%;
+    margin-left: 80px;
+    padding-top: 70px;
+  }
+  .main-l p{
+    width: 100%;
+      display: flex;
+      align-content: flex-start;
+      justify-content:space-between;
+      margin: 1px; 
+      font-family: 'Playfair Display', serif;
+  }
+  .hd{
+    font-size: 55px;
+    margin: 5px;
+    color: #333;
+  }
+  .hd2{
+    font-size: 64px;
+    font-weight: 900;
+    margin-top: -56px;
+    letter-spacing: 0.04em;
+    color: #222;
+  }
+  .content{
+    width: 94%;
+    margin-top: 35px;
+    color: gray;
+    letter-spacing: 0.02em;
+    font-weight: 500;
+    font-size: 18px;
+  }
+  .btn{
+    margin-top: 80px;
+  }
+  .btn a{
+    background: #fff;
+    font-size: 18px;
+    color: #ff0073;
+    border-radius: 25px;
+    padding: 15px 35px;
+    padding-left: 45px;
+    letter-spacing: 0.1em;
+    box-shadow: 2px 1px 7px #000;
+    transition-duration: 0.4s;
+  }
+  .btn :hover {
+    background-color: #555555;
+    color: white;
+  }
+  .btn a i{
+    padding-left: 25px;
+  }
+  .dropdown{
+     position:relative;
+     display: inline-block;
+  }
+  .dropdown-content{
+    display: none;
+    position: relative;
+    background-color:#747474;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+ .dropdown-content a{
+   color: black;
+   padding:12px 15px;
+   font-weight: normal;
+   text-decoration: none;
+   display: block;
+   text-align: left;
+ }
+ .dropdown-content a:hover{
+   background-color:#ddd;
+ }
+ .dropdown:hover .dropdown-content{
+   display:inline-block;
+ }
+.late{
+  padding: 50px 100px;
+    margin-top: 50px;
+}
+  
+  .main-r{
+    position:absolute;
+    top: 150px;
+    left: 750px;
+  }
+  .r-t{
+    margin-left: 140px;
+    margin-top: 30px;
+    
+  }
+  .r-t img{
+    height: 400px;
+    border-radius: 8px;
+    border-style:var(white);
+    width: 80%;
+    margin-bottom: 25px;
+    cursor:pointer;
+  }
+    .r-btn{
+    margin-left: 630px;
+    margin-top: -190px;
+  }
+  .r-btn i{
+    color: #747474;
+    font-size: 30px;
+  }
+  .r-btn i:hover{
+    color:#ffbbd9;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+    transition-timing-function: ease-out;
+    transform: scale(2, 3);
+}
+  .r-b{
+    margin-top: 225px;
+    margin-left: 20px;
+  }
+  .r-b ul{
+    list-style: none;
+  }
+  .r-b hr{
+    margin-top: -40px;
+    margin-bottom: 5px;
+    border-top: 6px dotted #fff;
+    width: 70%;
+  }
+  .r-b ul li:hover{
+    border-bottom: 0;
+    transition-timing-function:ease-out ;
+  }
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

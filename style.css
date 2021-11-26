@@ -1,0 +1,226 @@
+*{padding:0; margin:0; box-sizing: border-box;}
+body{
+    scroll-behavior:smooth;
+    font-family: 'Roboto', sans-serif;
+}
+:root{
+    --primay:#FFDA03;
+    --secondary:rgba(15, 10, 29, 0.849);
+    --light:#2f3640;
+}
+header{
+    width: 100%;
+    height: 100vh;
+}
+.nav1{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    flex-wrap: wrap;
+    box-shadow: 2px 0px 3px grey;
+    text-align:center;
+}
+.nav1 .left{
+    flex-basis:  50%;
+    letter-spacing: 2px;
+}
+.nav1 .left a{
+    text-decoration: none;
+    color: var(--primay);
+    font-weight: bold;
+    margin:0px 5px;
+}
+.nav1 .right{
+    flex-basis: 50%;
+}
+.nav1 .right ul{
+    list-style: none;
+    text-align: end;
+}
+.nav1 .right ul li{
+    display:inline-block;
+}
+.nav1 .right ul li a{
+    text-decoration: none;
+    color:olive;
+    font-weight: 500;
+    display: block;
+    margin:0px 5px;
+}
+.nav1 .right ul li a:hover{
+    color: black;
+}
+.nav1 .right i{
+    font-size: 15px;
+    margin: 0px 10px;
+    background-color: var(--primay);
+    color:#c49102;
+    padding: 8px;
+    cursor: pointer;
+    border-radius: 25%;
+}
+.nav2{
+    width: 100%;
+    height: 120px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.nav2 .nav2-left,.nav2 .nav2-center,.nav2 .nav2-right{
+    flex-basis: 30%;
+    margin: auto;
+    cursor: pointer;
+}
+.nav2 .nav2-left i{
+    margin: 10px;
+}
+.nav2 .nav2-center h1{
+    color:var(--primay);
+    font-size: 2rem;
+    letter-spacing: 5px;
+    font-weight:bold;
+}
+.nav2 .nav2-center h1 span{
+    color:var(--secondary);
+}
+.nav2 .nav2-center p{
+    color:grey;
+    font-size: 15px;
+    margin-top: 5px;
+}
+.nav2 .nav2-right i{
+    margin: 0px 5px;
+}
+.featured{
+    width: 100%;
+    height: 80vh;
+    background:linear-gradient(to right,rgba(0,0,0,0.6),rgba(255,255,255,0.1)), url('img/g1.jpg');
+    background-size:cover;
+    background-position: top;
+    position: relative;
+}
+.featured-text{
+    max-width: 500px;
+    margin-left: 8%;
+    position:absolute;
+    top: 50%;
+    left: 10;
+    color:white;
+    text-align: center;
+    padding: 10px;
+    font-size: 2rem;
+    letter-spacing: 5px;
+    font-family: 'Akaya Kanadaka', cursive;
+}
+.featured-text button{
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    background-color: var(--secondary);
+    margin:20px 0px;
+    color:white;
+    font-weight:bold;
+    border-radius: 5%;
+}
+.latest{
+    padding: 50px 100px;
+    margin-top: 50px;
+}
+.product-intro{
+    text-align: center;
+}
+.product-intro h1{
+    color:var(--primay);
+    letter-spacing: 0.2rem;
+    font-size: 2.3rem;
+    font-weight: bolder;
+}
+.product-intro h1 span{
+    color: var(--secondary);
+}
+.product-intro p{
+    color:gray;
+    margin: 15px 0px;
+}
+.card-container{
+    width: 100%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    margin: 4rem 0;
+}
+.card-container .card{
+    flex-basis: 20%;
+    padding: 0.8rem;
+    position: relative;
+}
+.card img{
+    width: 100%;
+    border-radius: 10%;
+    transition: 1s,ease-in-out;
+}
+.card i{
+    color: goldenrod;
+    margin: 10px 0;
+}
+.card button{
+    color: white;
+    background: var(--secondary);
+    border: none;
+    outline: none;
+    margin-top: 15px;
+    padding: 5px 20px;
+    cursor: pointer;
+}
+.card:hover img,.card:hover h1{
+    width: 95%;
+    color: var(--primay);
+}
+.card::before{
+    content: '25% off';
+    width: 25%;
+    height: 25px;
+    line-height: 25px;
+    color: white;
+    position:absolute;
+    top:0;
+    left: 0;
+    background-color:crimson;
+    padding: 0px 4px;
+    transform: rotate(-20deg);
+    border-radius:  10%;
+}
+.popular{
+    padding: 50px 100px;
+    margin-top:20px;
+}
+footer{
+    background-color: var(--secondary);
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 2rem;
+}
+footer div{
+    flex-basis: 30%;
+}
+footer h1{
+    letter-spacing: 0.5rem;
+}
+footer h1 span{
+    color: var(--primay);
+}
+footer p{
+    font-size: 1rem;
+}
+footer i{
+    margin:0px 5px;
+}

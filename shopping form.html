@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<link rel="stylesheet" href="color2.css">
+
+
+</head>
+<body>
+  
+
+    <!-- Modal content -->
+    <div class="modal-content">
+      <div class="modal-header">
+        <span class="close">&times;</span>
+        <h2>MAKE PAYMENT</h2>
+      </div>
+      <div class="modal-body">
+          <div class="row">
+              <div class="col-75">
+                <div class="container">
+                  <form action="/action_page.php">
+                  
+                    <div class="row">
+                      <div class="col-50">
+                        <h3>FILL UP DETAILS</h3>
+                        <label for="fname"><i class="fa fa-user"></i> Full Name</label>
+                        <input type="text" id="fname" name="firstname" placeholder="ex: Diana Prince">
+                        <br>
+                        <br>
+                        <label for="email" ><i class="fa fa-envelope"></i> Email</label>
+                        <input type="text" id="email" name="email" placeholder="diana@gmail.com">
+                        <br>
+                        <br>
+                        <label for="adr"><i class="fa fa-address-card-o"></i> Address</label>
+                        <input type="text" id="adr" name="address" placeholder="542 W. 15th Street">
+                        <br>
+                        <br>
+                        <label for="city"><i class="fa fa-institution"></i> City</label>
+                        <input type="text" id="city" name="city" placeholder="New York">
+                        <br>
+                        <br>
+            
+                        
+                            <label for="state">State</label>
+                            <input type="text" id="state" name="state" placeholder="NY">
+                            <br>
+                        <br>
+                          
+                            <label for="zip">Zip</label>
+                            <input type="text" id="zip" name="zip" placeholder="10001">
+                            <br>
+                        <br>
+                          
+                      </div>
+            
+                      <div class="col-50">
+                        <h3>Payment</h3>
+                        <label for="fname">Accepted Cards</label>
+                        <div class="icon-container">
+                          <i class="fa fa-cc-visa" style="color:navy;"></i>
+                          <i class="fa fa-cc-amex" style="color:blue;"></i>
+                          <i class="fa fa-cc-mastercard" style="color:red;"></i>
+                          <i class="fa fa-cc-discover" style="color:orange;"></i>
+                        </div>
+                        <label for="cname">Name on Card</label>
+                        <input type="text" id="cname" name="cardname" placeholder="ex:Diana Prince">
+                        <br>
+                        <br>
+            
+  
+                        <label for="ccnum">Credit card number</label>
+                        <input type="text" id="ccnum" name="cardnumber" placeholder="888-444-666-555">
+                        <br>
+                        <br>
+            
+                        <label for="expmonth">Exp Month</label>
+                        <input type="text" id="expmonth" name="expmonth" placeholder="February">
+                        <br>
+                        <br>
+            
+                        
+                            <label for="expyear">Exp Year</label>
+                            <input type="text" id="expyear" name="expyear" placeholder="2021">
+                            <br>
+                        <br>
+            
+                          
+                            <label for="cvv">CVV</label>
+                            <input type="text" id="cvv" name="cvv" placeholder="352">
+                            <br>
+                        <br>
+            
+                          
+                      </div>
+                      
+                    </div>
+                    <label>
+                      <input type="checkbox" checked="checked" name="sameadr">Remember me
+                    </label>
+                    <br>
+                    <input type="submit" value="Continue to Payment" class="btn">
+                  </form>
+                </div>
+              </div>
+      </div>
+      
+    </div>
+  
+  </div>
+  
+  <script>
+  // Get the modal
+  var modal = document.getElementById("myModal");
+  
+  // Get the button that opens the modal
+  var btn = document.getElementById("myBtn");
+  
+  // Get the <span> element that closes the modal
+  var span = document.getElementsByClassName("close")[0];
+  
+  // When the user clicks the button, open the modal 
+  btn.onclick = function() {
+    modal.style.display = "block";
+  }
+  
+  // When the user clicks on <span> (x), close the modal
+  span.onclick = function() {
+    modal.style.display = "none";
+  }
+  
+  // When the user clicks anywhere outside of the modal, close it
+  window.onclick = function(event) {
+    if (event.target == modal) {
+      modal.style.display = "none";
+    }
+  }
+  </script>
+  
+
+
+  
+
+</body>
+</html>
+
